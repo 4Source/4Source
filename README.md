@@ -8,8 +8,5 @@
         <a href="https://discordapp.com/users/673126828948586517">
             <img src="https://skillicons.dev/icons?i=discord"/>
         </a>
-        <a href="https://www.linkedin.com/in/dennis-m%C3%B6ller-03208a303/">
-            <img src="https://skillicons.dev/icons?i=linkedin"/>
-        </a>
 </div>
 
