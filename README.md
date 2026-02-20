@@ -1,11 +1,7 @@
 <div align="center">
-        <img height=195 width=400 src="https://github-readme-stats.vercel.app/api/top-langs/?username=4Source&layout=compact&theme=dark&bg_color=00000000&text_color=EBEBEB&title_color=EBEBEB" />
+        <img height=195 width=400 src="./profile/top-langs.svg" />
         <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Amatic+SC&size=30&pause=500&color=FFFFFF&background=FFFFFF00&center=true&vCenter=true&random=false&width=835&lines=Hey...+I'm+Dennis+aka+4Source;I'm+a+hobby+developer+...;...+but+on+my+way+to+becoming+a+professional+...;I+am+busy+with+all+sorts+of+things+...;If+you+have+anything%2C+please+feel+free+to+contact+me+..." alt="Typing SVG" /></a>
 </div>
-
-![Stats](./profile/stats.svg)
-![Top Languages](./profile/top-langs.svg)
-![Pinned](./profile/pin-readme-tools-github-readme-stats.svg)
 
 <div align="center"> 
         <a href="https://discordapp.com/users/673126828948586517">
