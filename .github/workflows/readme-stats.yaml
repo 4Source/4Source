@@ -15,20 +15,12 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - name: Generate top languages card normal 
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: top-langs
-          options: username=${{ github.repository_owner }}&count_private=true&layout=normal&theme=dark&bg_color=00000000&text_color=EBEBEB&title_color=EBEBEB&langs_count=10&size_weight=0.5&count_weight=0.5
-          path: profile/top-langs-normal.svg
-          token: ${{ secrets.GH_PAT }}
-
-      - name: Generate top languages card compact
+      - name: Generate top languages card 
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
           options: username=${{ github.repository_owner }}&count_private=true&layout=compact&theme=dark&bg_color=00000000&text_color=EBEBEB&title_color=EBEBEB&langs_count=10&size_weight=0.5&count_weight=0.5
-          path: profile/top-langs-compact.svg
+          path: profile/top-langs.svg
           token: ${{ secrets.GH_PAT }}
 
       - name: Commit cards
