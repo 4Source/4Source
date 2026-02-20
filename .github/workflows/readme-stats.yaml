@@ -23,6 +23,22 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.GH_PAT }}
 
+      - name: Generate top languages card test 6
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6
+          path: profile/top-langs-test-x-6.svg
+          token: ${{ secrets.GH_PAT }}
+
+      - name: Generate top languages card test 10
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=10
+          path: profile/top-langs-test-x-10.svg
+          token: ${{ secrets.GH_PAT }}
+
       - name: Generate top languages card test 600 6
         uses: readme-tools/github-readme-stats-action@v1
         with:
